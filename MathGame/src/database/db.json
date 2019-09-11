@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Dodawanie i odejmowanie liczb",
+      "nextT": "Dodawanie liczb",
+      "lastT": "Odejmowanie liczb",
+      "examplesPP": [
+        "a+b=c",
+        "a,b - składniki sumy",
+        "c - suma"
+      ],
+      "examplesPP2": [
+        "Własności:",
+        "Przemienność dodawania: a+b=b+a",
+        "Łączność dodawania: (a+b)+c=a+(b+c)",
+        "Liczba 0 jest elementem neutralnym w dodawaniu: a+0=a"
+      ],
+      "examplesMM": [
+        "a−b=c",
+        "a - odjemna",
+        "b - odjemnik",
+        "c - różnica"
+      ],
+      "examplesMM2": [
+        "Własności:",
+        "Różnica dwóch jednakowych liczb jest zawsze równa zero: a−a=0",
+        "Jeżeli od dowolnej liczby odejmiemy zero, to liczba ta nie zmieni się: a−0=a",
+        "Odejmowanie możemy zapisać jako sumę liczby przeciwnej: a−b=a+(−b)",
+        "Odejmowanie jest działaniem odwrotnym do dodawania: a−b=c⟺a=b+c."
+      ],
+      "howtoplay": " Poćwicz swoje umiejętności. Gra polega na wpisańiu poprawnej wartości z działan. Pozapoznaniu się z materiałami powyżej już wiesz jak to zrobić !",
+      "content": "Dodawanie i odejmowanie to podstawowe działania arytmetyczne. W zasadzie wszystkie inne działania sprowadzają się do tych dwóch, mnożenie jest sekwencyjnym dodawaniem, a dzielenie i pierwiastkowanie - odejmowaniem. Samo dodawanie i wynik dodawania nazywamy sumą, a liczby, które dodajemy to składniki. Odejmowanie nazywane jest różnicą. Liczbę, od której odejmujemy nazywamy odjemną, a liczba, którą odejmujemy to odjemnik."
+    },{
+      "id": 2,
+      "title": "Mnożenie",
+      "nextT": "gdzie liczby 3 i 4 są czynnikami, a 12 to ich iloczyn. Powyższe oznacza, że trzy grupy po cztery elementy to razem dwanaście elementów. Z każdej z powyższych równolicznych grup można wybrać kolejno po jednym elemencie i w ten sposób stworzyć cztery nowe grupy zawierające po trzy elementy",
+      "examplesPP": [
+        "Na przykład:",
+        "3 * 4 = 4 + 4 + 4 = 12"
+      ],
+      "examplesMM": [
+        ["4 * 3=3+3+3+3=12."]
+      ],
+      "examplesMM2": [
+        "W ten sposób 3*4 = 4*3 co w przypadku ogólnym nazywa się formalnie przemiennością. Należy mieć jednak na uwadze, że istnieją działania nazywane mnożeniami, które nie mają tej własności (zob. dalej)."
+      ],
+      "howtoplay": " Poćwicz swoje umiejętności. Gra polega na wpisańiu poprawnej wartości z działan. Pozapoznaniu się z materiałami powyżej już wiesz jak to zrobić !",
+      "content": "działanie dwuargumentowe będące jednym z czterech podstawowych, obok dodawania, odejmowania i dzielenia, działań arytmetycznych. Stanowi ono uogólnienie wielokrotnego dodawania elementu do siebie. Wynik mnożenia nazywany jest iloczynem, a mnożone elementy to czynniki, przy czym pierwszy czynnik nazywa się czasem mnożną, a drugi – mnożnikiem."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+html{
+  font-size: 15px;
+
+}
+$gutter: 10px;
+@mixin grid($colsNumber) {
+  @for $i from 1 through $colsNumber {
+    .col-#{$i} {
+      flex: 0 0 (100% / $colsNumber) * $i;
+    }
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 70rem;
+  width: 100%;
+  margin: 0 auto;
+
+  .row {
+
+    display: flex;
+    flex-direction: column;
+    [class*="col-"] {
+      flex: 0 0 100%;
+    }
+    @media screen and (min-width: 0px){
+      flex-direction: row;
+      @include grid(7);
+    }
+  }
+}
+
+
+body {
+    /* scieżka musi być względem pliku /js/app.js */
+    background-color: #FF9861;
+    color: white;
+  }
+
